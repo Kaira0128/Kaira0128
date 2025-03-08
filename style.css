@@ -1,47 +1,44 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #ffd1dc; /* Un rosa pastel cute */
+  background-color: #E6E6FA; /* Lila clarito */
+  color: #4B0082; /* Morado oscuro para el texto */
 }
 
-header {
-  background-color: #333;
-  color: white;
-  padding: 10px;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 10px;
+header, footer {
+  background-color: #D8BFD8; /* Lila pastel */
+  color: #4B0082; /* Texto en morado oscuro para contraste */
+  padding: 15px;
+  text-align: center;
 }
 
 nav ul li a {
-  color: white;
+  color: #8A2BE2; /* Un morado vibrante */
   text-decoration: none;
+  font-weight: bold;
 }
 
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
+nav ul li a:hover {
+  color: #9370DB; /* Lila más suave al pasar el mouse */
 }
 
 section {
+  background-color: #F3E5F5; /* Un lila muy clarito */
   padding: 20px;
-  background-color: white;
-  margin: 10px;
+  border-radius: 10px;
+  margin: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Un efecto de sombra suave */
 }
 
-ul {
-  list-style-type: none;
+button {
+  background-color: #BA55D3; /* Un tono lila intermedio */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-ul li {
-  margin: 10px 0;
+button:hover {
+  background-color: #9932CC; /* Un tono más oscuro al pasar el mouse */
 }
+
